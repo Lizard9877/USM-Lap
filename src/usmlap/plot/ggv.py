@@ -49,7 +49,7 @@ def plot_gg(
     title: str = "GG Plot",
     marker_size: float = 30,
     colours: Optional[list[str]] = None,
-    show_legend: Optional[bool] = None,
+    show_legend: Optional[bool] = True,
     velocity_transparency: bool = True,
 ) -> None:
     """
