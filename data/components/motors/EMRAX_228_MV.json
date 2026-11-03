@@ -1,0 +1,11 @@
+{
+  "print_name": "EMRAX 228 MV",
+  "electrical_resistance": 0.31,
+  "peak_torque": 240,
+  "continuous_torque": 125,
+  "peak_current": 340,
+  "continuous_current": 160,
+  "maximum_rpm": 6500,
+  "rated_voltage": 470,
+  "datasheet_url": "https://emrax.com/wp-content/uploads/2017/01/emrax_228_technical_data_4.5.pdf"
+}
