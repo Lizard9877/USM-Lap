@@ -1,0 +1,75 @@
+{
+  "print_name": "WRe5 No Aero",
+  "year": 2026,
+  "driver": "acceleration",
+  "aero": "no_aero",
+  "brakes": {
+    "front": {
+      "cylinder": "CP7855-905", // AP Racing CP7855 16.8mm Bore		
+      "caliper": "AP_Racing_CP4227-2S0_2x2_Piston_Caliper_Front", // AP Racing CP4227-2S0 2x2 Piston Caliper		
+      "disc": "S355-185mm", //Floating Disc - S355 ⌀185mm x 4mm	
+      "pad": "CP4226D27" //Ferodo Organic Race Compound		
+    },
+    "rear": {
+      "cylinder": "CP7855-95", // AP Racing CP7855 23.8mm Bore		
+      "caliper": "AP_Racing_CP4226-2S0_2x1_Piston_Caliper_Rear", // AP Racing CP4226-2S0 2x1 Piston Caliper		
+      "disc": "S355-193mm", //Floating Disc - S355 ⌀193mmx4mm
+      "pad": "CP4226D27" //CL Brakes RX3 Sintered Metal
+    },
+    "pedal_ratio": 3.6,
+    "front_brake_bias": 0.5
+  },
+  "inertia": {
+    "curb_mass": 245, //
+    "front_mass_distribution": 0.45, //
+    "yaw_inertia": 75,
+    "front_unsprung_mass": {
+      "mass": 9,
+      "centre_of_gravity_height": 0.2
+    },
+    "rear_unsprung_mass": {
+      "mass": 9,
+      "centre_of_gravity_height": 0.2
+    },
+    "equivalent_drivetrain_inertia": 5
+  },
+  "powertrain": {
+    "accumulator": "USM26",  
+    "motor": "EMRAX_228_MV", //Emrax / 228 / MV		  Electrical Resistance inaccurate
+    "motor_controller": "BAMOCAR", //DTI HV550		
+    "cooling_coefficient": 24
+  },
+  "steering": {
+    "steering_ratio": 8.35,  //8.35:1
+    "steering_wheel_radius": 0.125 //
+  },
+  "suspension": {
+    "wheelbase": 1.540 //,
+    "centre_of_gravity_height": 0.320, //
+    "front": {
+      "suspension_type": "decoupled",
+      "track_width": 1.250, //
+      "roll_centre_height": 0.033, //
+      "heave_motion_ratio": 0.64, //
+      "heave_spring_rate": 87560,
+      "roll_motion_ratio": 1.5,
+      "roll_spring_rate": 87560
+    },
+    "rear": {
+      "suspension_type": "decoupled",
+      "track_width": 1.200, //
+      "roll_centre_height": 0.117, //
+      "heave_motion_ratio": 0.6, //
+      "heave_spring_rate": 96320,
+      "roll_motion_ratio": 1.2,
+      "roll_spring_rate": 39400
+    }
+  },
+  "transmission": {
+    "final_drive_ratio": 3.23 //
+  },
+  "tyres": {
+    "front": "hoozier_16x7.5-10_R20",  //("hoozier_18x7.5-10_R20")
+    "rear": "hoozier_16x7.5-10_R20"    //("hoozier_18x7.5-10_R20")
+  }
+}
